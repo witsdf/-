@@ -2,7 +2,7 @@
 I =  imread('t2.jpg');  
 % 转化为双精度型  
 %I = im2double(I);   
-% 若为彩色，转化为灰度  
+% 若为彩色，转化为灰度  。。
 if(size(I,3)==3), I=rgb2gray(I); end  
 figure(1),imshow(I);  
 %---------------------------  
